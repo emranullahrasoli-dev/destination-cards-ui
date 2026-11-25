@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud Peak Valley — Destination Cards</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main class="showcase">
+      <!-- Card 1: Light / Segmented -->
+      <article class="card card--light">
+        <div class="card__image-wrap">
+          <img
+            class="card__image"
+            src="https://i.pinimg.com/1200x/47/da/2d/47da2d09a9bb2394dd764adc789ab193.jpg"
+            alt="Mountain covered in clouds under cloudy sky"
+          />
+        </div>
+        <div class="card__body">
+          <header class="card__header">
+            <div class="card__titles">
+              <h2 class="card__title">Cloud Peak Valley</h2>
+              <p class="card__location">Swiss Alps, Switzerland</p>
+            </div>
+            <button
+              type="button"
+              class="favorite-btn favorite-btn--outline"
+              aria-label="Add to favorites"
+              data-favorite
+            >
+              <svg
+                class="favorite-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.75"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                />
+              </svg>
+            </button>
+          </header>
+          <p class="card__description">
+            Watch ridgelines rise through drifting cloud, where cool mountain
+            air and wide-open views turn every overlook into a quiet reset.
+          </p>
+          <div class="card__stats">
+            <div class="stat">
+              <span class="stat__value">4 Hr</span>
+              <span class="stat__label">Hike Duration</span>
+            </div>
+            <div class="stat">
+              <span class="stat__value">Sunrise</span>
+              <span class="stat__label">Ideal Time</span>
+            </div>
+            <div class="stat">
+              <span class="stat__value">Clear &amp; Focused</span>
+              <span class="stat__label">Energy After</span>
+            </div>
+          </div>
+          <footer class="card__footer">
+            <button type="button" class="btn btn--primary">See more</button>
+          </footer>
+        </div>
+      </article>
+
+      <!-- Card 2: Immersive / Overlay -->
+      <article class="card card--immersive">
+        <img
+          class="card__bg"
+          src="https://i.pinimg.com/1200x/47/da/2d/47da2d09a9bb2394dd764adc789ab193.jpg"
+          alt=""
+          aria-hidden="true"
+        />
+        <div class="card__scrim"></div>
+        <button
+          type="button"
+          class="favorite-btn favorite-btn--glass"
+          aria-label="Add to favorites"
+          data-favorite
+        >
+          <svg
+            class="favorite-icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.75"
+            aria-hidden="true"
+          >
+            <path
+              d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+            />
+          </svg>
+        </button>
+        <div class="card__overlay-content">
+          <h2 class="card__title card__title--light">Cloud Peak Valley</h2>
+          <p class="card__location card__location--light">Swiss Alps, Switzerland</p>
+          <div class="rating">
+            <svg
+              class="rating__star"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+              />
+            </svg>
+            <span class="rating__score">4.8</span>
+            <span class="rating__reviews">(256 reviews)</span>
+          </div>
+          <button type="button" class="btn btn--glass">
+            <span class="btn__label">See more</span>
+            <span class="btn__arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 18l6-6-6-6" />
+              </svg>
+            </span>
+          </button>
+        </div>
+      </article>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
