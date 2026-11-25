@@ -2,7 +2,7 @@
 
 Side-by-side **travel destination card** UI with two variants: a classic split layout and a full-bleed overlay card with a glass-style CTA. Built with HTML, CSS, and vanilla JavaScript—no build step or framework.
 
-![Preview](./assets/images/preview.png)
+![Preview](./assets/images/preview.jpg)
 
 ## Features
 
@@ -46,7 +46,7 @@ Hero images load from an external URL (Pinterest CDN). You need internet unless 
 │   └── script.js
 └── assets/
     ├── images/
-    │   └── preview.png
+    │   └── preview.jpg
     └── reference/
         └── design-mockup.png
 ```
